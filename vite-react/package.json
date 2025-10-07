@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
-    "@skeletonlabs/skeleton": "4.0.0-next.27",
+    "@skeletonlabs/skeleton": "4.0.0-next.29",
     "@skeletonlabs/skeleton-react": "4.0.0-next.29",
     "@tailwindcss/vite": "^4.1.14",
     "@types/node": "^24.6.0",

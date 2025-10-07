@@ -13,7 +13,7 @@
     "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "4.0.0-next.27",
+    "@skeletonlabs/skeleton": "4.0.0-next.29",
     "@skeletonlabs/skeleton-react": "4.0.0-next.29",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^22.0.0",
