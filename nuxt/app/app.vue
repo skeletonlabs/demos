@@ -3,13 +3,13 @@ const headerClasses = "space-y-2 pb-2 border-b-2 border-surface-800-200";
 const previewCardClasses =
   "card bg-noise bg-surface-50-950 border-[1px] border-surface-200-800 flex justify-center items-center p-8";
 
-const color = ref('#bada55');
+const color = ref("#bada55");
 </script>
 
 <template>
   <main>
     <!-- Sticky Header -->
-    <header class="sticky top-0 z-50 bg-surface-50-950 shadow-xl">
+    <header class="bg-surface-50-950 sticky top-0 z-50 shadow-xl">
       <div
         class="container mx-auto grid grid-cols-[auto_1fr_auto] items-center gap-10 p-4"
       >
@@ -150,7 +150,7 @@ const color = ref('#bada55');
         <div :class="previewCardClasses">
           <a
             href="#card"
-            class="card preset-filled-surface-100-900 border-[1px] border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+            class="card preset-filled-surface-100-900 border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden border-[1px]"
           >
             <header>
               <img
@@ -185,7 +185,7 @@ const color = ref('#bada55');
       <section class="space-y-4">
         <h3 class="h3">Forms</h3>
         <div :class="previewCardClasses">
-          <form class="w-full max-w-xl mx-auto space-y-4">
+          <form class="mx-auto w-full max-w-xl space-y-4">
             <fieldset class="space-y-4">
               <!-- Input -->
               <label class="label">
@@ -278,7 +278,7 @@ const color = ref('#bada55');
       <section class="space-y-4">
         <h3 class="h3">Blockquote</h3>
         <div :class="previewCardClasses">
-          <div class="max-w-xl mx-auto">
+          <div class="mx-auto max-w-xl">
             <blockquote class="blockquote">
               "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Nesciunt, aliquid. Molestias, odio illum voluptatibus natus
@@ -325,7 +325,7 @@ const color = ref('#bada55');
       <section class="space-y-4">
         <h3 class="h3">Alerts</h3>
         <div :class="previewCardClasses">
-          <div class="w-full max-w-xl grid grid-cols-1 gap-4">
+          <div class="grid w-full max-w-xl grid-cols-1 gap-4">
             <div
               class="card preset-outlined-success-500 grid grid-cols-1 items-center gap-4 p-4 lg:grid-cols-[1fr_auto]"
             >
