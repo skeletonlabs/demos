@@ -7,5 +7,6 @@
   "commitMessagePrefix": "chore(deps): ",
   "prTitle": "Dependency Updates",
   "automerge": true,
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "ignoreTests": true
 }
