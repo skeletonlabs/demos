@@ -21,3 +21,7 @@ You can simply copy any of the demo projects individually and use it as a standa
 ---
 
 > 💡 Use these demos as reference implementations for integrating Skeleton in your own projects.
+
+## Documentation
+
+Explore the full documentation at [skeleton.dev](https://skeleton.dev/).
