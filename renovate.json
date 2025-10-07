@@ -4,8 +4,6 @@
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "groupName": "Dependency Updates",
-  "commitMessagePrefix": "chore(deps): ",
-  "prTitle": "Dependency Updates",
   "automerge": true,
   "automergeType": "branch",
   "ignoreTests": true
