@@ -24,8 +24,8 @@ importers:
   astro:
     dependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.14(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -49,8 +49,8 @@ importers:
         version: 19.2.0(react@19.2.0)
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-react':
         specifier: 4.0.0-next.29
         version: 4.0.0-next.29(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -76,8 +76,8 @@ importers:
   nuxt:
     dependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.14(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -110,8 +110,8 @@ importers:
         version: 0.5.8(@types/node@24.7.0)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@tailwindcss/vite':
         specifier: ^4.0.7
         version: 4.1.14(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -122,11 +122,11 @@ importers:
   sveltekit:
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-svelte':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(@internationalized/date@3.10.0)(svelte@5.39.10)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(@internationalized/date@3.10.0)(svelte@5.39.10)
       '@sveltejs/adapter-auto':
         specifier: ^6.1.0
         version: 6.1.1(@sveltejs/kit@2.46.2(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.10)(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))(svelte@5.39.10)(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))
@@ -168,8 +168,8 @@ importers:
         specifier: ^9.36.0
         version: 9.37.0
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-react':
         specifier: 4.0.0-next.29
         version: 4.0.0-next.29(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -216,11 +216,11 @@ importers:
   vite-svelte:
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(tailwindcss@4.1.14)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-svelte':
-        specifier: 4.0.0-next.27
-        version: 4.0.0-next.27(@internationalized/date@3.10.0)(svelte@5.39.10)
+        specifier: 4.0.0-next.29
+        version: 4.0.0-next.29(@internationalized/date@3.10.0)(svelte@5.39.10)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
         version: 6.2.1(svelte@5.39.10)(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -1576,9 +1576,6 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@skeletonlabs/skeleton-common@4.0.0-next.27':
-    resolution: {integrity: sha512-NcNdlF8EepGvY7P/9ZrxHDySJQZwt084lJzi42z1PQ1gAdygxHZgD+eZomgK39Db83Ih/PJ8zfRIXg0s/pgRcw==}
-
   '@skeletonlabs/skeleton-common@4.0.0-next.29':
     resolution: {integrity: sha512-Z/FpNas+Nq5rW1rC6tpKLPlWRBuk/nZyY4xB9p78oDyKefreh/bhzyL0fVWIf3qXD6udIf6Q/xSnWGDpk2ckzQ==}
 
@@ -1588,13 +1585,13 @@ packages:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  '@skeletonlabs/skeleton-svelte@4.0.0-next.27':
-    resolution: {integrity: sha512-Jwvb9qtHsHZbkqxQLjplT0mlXA1qAcZqLpYB7eEYXTKgUEiaBeImuXFl0VAlazOw/Kl6XbdN3cM+fs2JMte8sA==}
+  '@skeletonlabs/skeleton-svelte@4.0.0-next.29':
+    resolution: {integrity: sha512-T8+ByEzUEZfyegwGD1Tl1sVowOtiZK8xR57ilr1BfFqQ7FITQjGT47EyJpU7VlNUrF/Jm/L4Tfu5QUmOTT3j6A==}
     peerDependencies:
       svelte: ^5.29.0
 
-  '@skeletonlabs/skeleton@4.0.0-next.27':
-    resolution: {integrity: sha512-RDnTqA7ktoUZpy03PJiWw/bUc8R4jSLBl3OmywPFCzNczTWMGW1KaFr1l0v5/trUYhbpIVpZJCICYd3Om8VGfg==}
+  '@skeletonlabs/skeleton@4.0.0-next.29':
+    resolution: {integrity: sha512-u1igxb+zYqBozdPFbfnjotxp5Bv8RCB2LNhjTEH1lGk7ouGjECz8CSj8WQ7oYmdpWiQWvgiOa7feg4CMrBZsFA==}
     peerDependencies:
       tailwindcss: ^4.0.0
 
@@ -6774,8 +6771,6 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@skeletonlabs/skeleton-common@4.0.0-next.27': {}
-
   '@skeletonlabs/skeleton-common@4.0.0-next.29': {}
 
   '@skeletonlabs/skeleton-react@4.0.0-next.29(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
@@ -6807,9 +6802,9 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@skeletonlabs/skeleton-svelte@4.0.0-next.27(@internationalized/date@3.10.0)(svelte@5.39.10)':
+  '@skeletonlabs/skeleton-svelte@4.0.0-next.29(@internationalized/date@3.10.0)(svelte@5.39.10)':
     dependencies:
-      '@skeletonlabs/skeleton-common': 4.0.0-next.27
+      '@skeletonlabs/skeleton-common': 4.0.0-next.29
       '@zag-js/accordion': 1.25.0
       '@zag-js/avatar': 1.25.0
       '@zag-js/collection': 1.25.0
@@ -6835,7 +6830,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@skeletonlabs/skeleton@4.0.0-next.27(tailwindcss@4.1.14)':
+  '@skeletonlabs/skeleton@4.0.0-next.29(tailwindcss@4.1.14)':
     dependencies:
       tailwindcss: 4.1.14
 
