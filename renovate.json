@@ -1,6 +1,12 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ]
+  "extends": ["config:base"],
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
+  "groupName": "Dependency Updates",
+  "commitMessagePrefix": "chore(deps): ",
+  "prTitle": "Dependency Updates",
+  "automerge": true,
+  "automergeType": "branch",
+  "automergeStrategy": "merge",
+  "labels": ["dependencies"]
 }
