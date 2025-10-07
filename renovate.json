@@ -1,5 +1,7 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "groupName": "Dependency Updates",
@@ -8,5 +10,7 @@
   "automerge": true,
   "automergeType": "branch",
   "automergeStrategy": "merge",
-  "labels": ["dependencies"]
+  "labels": [
+    "dependencies"
+  ]
 }
