@@ -8,9 +8,5 @@
   "commitMessagePrefix": "chore(deps): ",
   "prTitle": "Dependency Updates",
   "automerge": true,
-  "automergeType": "branch",
-  "automergeStrategy": "merge",
-  "labels": [
-    "dependencies"
-  ]
+  "automergeStrategy": "merge"
 }
