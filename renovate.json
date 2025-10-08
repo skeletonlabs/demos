@@ -3,7 +3,6 @@
   "extends": ["config:recommended", ":disableDependencyDashboard"],
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
-  "groupName": "Dependency Updates",
   "automerge": true,
   "automergeType": "branch",
   "ignoreTests": true
