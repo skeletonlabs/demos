@@ -52,8 +52,8 @@ importers:
         specifier: 4.0.0-next.30
         version: 4.0.0-next.30(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.0.0-next.30
-        version: 4.0.0-next.30(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.0.0-next.31
+        version: 4.0.0-next.31(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.14
@@ -171,8 +171,8 @@ importers:
         specifier: 4.0.0-next.30
         version: 4.0.0-next.30(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.0.0-next.30
-        version: 4.0.0-next.30(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.0.0-next.31
+        version: 4.0.0-next.31(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.14(vite@7.1.9(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -1579,8 +1579,11 @@ packages:
   '@skeletonlabs/skeleton-common@4.0.0-next.30':
     resolution: {integrity: sha512-w7GncSVvbr33pl1i8zetYxslY13lyCs0SK5eLATldHk1Dne6+7GYTscJWDl26qLWkyHrmjx5+DugAu6EO5wF9Q==}
 
-  '@skeletonlabs/skeleton-react@4.0.0-next.30':
-    resolution: {integrity: sha512-v0whCx04whi5AG+jEqVl/T9ZCHRg7TbAhXfeW8tQF43eMeb8mUlDTTTK26mOJtEsgHlmu/HjxO20b/UMmqv8Pg==}
+  '@skeletonlabs/skeleton-common@4.0.0-next.31':
+    resolution: {integrity: sha512-bmaM8tOKGNapOeTHzXuySIMCPeCC+yHh0XT9P3Z1nuT+aYpPUhiwxKNOPExZraGambHR5qkjylh7gCuce1QUJg==}
+
+  '@skeletonlabs/skeleton-react@4.0.0-next.31':
+    resolution: {integrity: sha512-gTXUOn2WAaL32ghr2W5yOnS2tW9w/KlGxnQMFtYRqsaDxbUGMoOP80lb+AGjh4F9yhPO0JExfcIVoiOeYiatEQ==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -6779,9 +6782,11 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@4.0.0-next.30': {}
 
-  '@skeletonlabs/skeleton-react@4.0.0-next.30(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@skeletonlabs/skeleton-common@4.0.0-next.31': {}
+
+  '@skeletonlabs/skeleton-react@4.0.0-next.31(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
-      '@skeletonlabs/skeleton-common': 4.0.0-next.30
+      '@skeletonlabs/skeleton-common': 4.0.0-next.31
       '@zag-js/accordion': 1.26.0
       '@zag-js/avatar': 1.26.0
       '@zag-js/collection': 1.26.0
