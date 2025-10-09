@@ -12,7 +12,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "4.0.0-next.30",
+    "@skeletonlabs/skeleton": "4.0.0-next.31",
     "@skeletonlabs/skeleton-svelte": "4.0.0-next.31",
     "@sveltejs/adapter-auto": "^6.1.0",
     "@sveltejs/kit": "^2.43.2",
