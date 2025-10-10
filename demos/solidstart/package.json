@@ -13,7 +13,7 @@
     "vinxi": "^0.5.7"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "4.0.0-next.31",
+    "@skeletonlabs/skeleton": "4.0.0-next.32",
     "@tailwindcss/vite": "^4.0.7",
     "tailwindcss": "^4.0.7"
   },
