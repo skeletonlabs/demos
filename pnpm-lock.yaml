@@ -52,14 +52,14 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.0.2
-        version: 4.0.2(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.1.0
+        version: 4.1.0(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.14
       '@types/node':
         specifier: ^22.0.0
-        version: 24.8.0
+        version: 22.18.10
       '@types/react':
         specifier: ^19
         version: 19.2.2
@@ -171,8 +171,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(tailwindcss@4.1.14)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.0.2
-        version: 4.0.2(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.1.0
+        version: 4.1.0(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.14(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -1580,8 +1580,11 @@ packages:
   '@skeletonlabs/skeleton-common@4.0.2':
     resolution: {integrity: sha512-Ni0HZrDFpWBYK+MIv+eSOyHbDka4UIWLKH4+wigefgYEFPIcCFqFh4t/cWurqfESaa612wQAVJ1RXThtdKkvOg==}
 
-  '@skeletonlabs/skeleton-react@4.0.2':
-    resolution: {integrity: sha512-tKyG06DamHzPM6c7Tw4ZrTnkzysNjPv9OqOFM85lhJ0f9UUs/h7WSBtxCXMmq8GLowtrsqWYs1IsYXD51kgpAQ==}
+  '@skeletonlabs/skeleton-common@4.1.0':
+    resolution: {integrity: sha512-Yw4ufoRRPtJ5Nif7Oy+Cc0SGLJQ+rz0zaXjvhOwg2CeoNV5OHGoFk4FgJ0uJxIOrbOZNNpAmCPaGyxPXsppntA==}
+
+  '@skeletonlabs/skeleton-react@4.1.0':
+    resolution: {integrity: sha512-JJEozblp4o+6fBgVN8gPSNyxsX9vHlKkWuUBeKevo2hUIWQLFg+Zrc1/ShbZ1QlTZEQyfRKU1D9dXMU3erqe5w==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -1813,6 +1816,9 @@ packages:
 
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
+
+  '@types/node@22.18.10':
+    resolution: {integrity: sha512-anNG/V/Efn/YZY4pRzbACnKxNKoBng2VTFydVu8RRs5hQjikP8CQfaeAV59VFSCzKNp90mXiVXW2QzV56rwMrg==}
 
   '@types/node@24.8.0':
     resolution: {integrity: sha512-5x08bUtU8hfboMTrJ7mEO4CpepS9yBwAqcL52y86SWNmbPX8LVbNs3EP4cNrIZgdjk2NAlP2ahNihozpoZIxSg==}
@@ -2142,6 +2148,9 @@ packages:
 
   '@zag-js/toast@1.26.1':
     resolution: {integrity: sha512-TLcN9Bd17fI0069VOV7Ug1kGk5feUK38YKJys8/1cujG+Cu4d5iUif/GUJDrRjcI/P6dPVTzrZ9ag+pCzxkWOA==}
+
+  '@zag-js/toggle-group@1.26.1':
+    resolution: {integrity: sha512-0YXWmK59E+PPxpxj/YYbRY/gP1rVRnJ/hR57XNQykLrl+uYWy16lM3CD9tke3mmLwevdMpC3JwpdPAF9AGVBVw==}
 
   '@zag-js/tooltip@1.26.1':
     resolution: {integrity: sha512-ezBF4DZYo7E+AjVvpOoXnoPwhSnbS3y6Fp9BMvzQRSn5qElZbdQOEZSI9R6MZBTfEo6syXE68MYyCMzKFpkQFg==}
@@ -4937,6 +4946,9 @@ packages:
   undici-types@5.28.4:
     resolution: {integrity: sha512-3OeMF5Lyowe8VW0skf5qaIE7Or3yS9LS7fvMUI0gg4YxpIBVg0L8BxCmROw2CcYhSkpR68Epz7CGc8MPj94Uww==}
 
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
   undici-types@7.14.0:
     resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
 
@@ -6806,9 +6818,11 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@4.0.2': {}
 
-  '@skeletonlabs/skeleton-react@4.0.2(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@skeletonlabs/skeleton-common@4.1.0': {}
+
+  '@skeletonlabs/skeleton-react@4.1.0(@internationalized/date@3.10.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
-      '@skeletonlabs/skeleton-common': 4.0.2
+      '@skeletonlabs/skeleton-common': 4.1.0
       '@zag-js/accordion': 1.26.1
       '@zag-js/avatar': 1.26.1
       '@zag-js/collapsible': 1.26.1
@@ -6829,6 +6843,7 @@ snapshots:
       '@zag-js/tabs': 1.26.1
       '@zag-js/tags-input': 1.26.1
       '@zag-js/toast': 1.26.1
+      '@zag-js/toggle-group': 1.26.1
       '@zag-js/tooltip': 1.26.1
       '@zag-js/tree-view': 1.26.1
       react: 19.2.0
@@ -7139,6 +7154,10 @@ snapshots:
   '@types/nlcst@2.0.3':
     dependencies:
       '@types/unist': 3.0.3
+
+  '@types/node@22.18.10':
+    dependencies:
+      undici-types: 6.21.0
 
   '@types/node@24.8.0':
     dependencies:
@@ -7747,6 +7766,14 @@ snapshots:
       '@zag-js/anatomy': 1.26.1
       '@zag-js/core': 1.26.1
       '@zag-js/dismissable': 1.26.1
+      '@zag-js/dom-query': 1.26.1
+      '@zag-js/types': 1.26.1
+      '@zag-js/utils': 1.26.1
+
+  '@zag-js/toggle-group@1.26.1':
+    dependencies:
+      '@zag-js/anatomy': 1.26.1
+      '@zag-js/core': 1.26.1
       '@zag-js/dom-query': 1.26.1
       '@zag-js/types': 1.26.1
       '@zag-js/utils': 1.26.1
@@ -11105,6 +11132,8 @@ snapshots:
       unplugin: 2.3.10
 
   undici-types@5.28.4: {}
+
+  undici-types@6.21.0: {}
 
   undici-types@7.14.0: {}
 
