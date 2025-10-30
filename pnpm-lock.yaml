@@ -31,7 +31,7 @@ importers:
         version: 4.1.16(vite@7.1.12(@types/node@24.9.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))
       astro:
         specifier: ^5.14.1
-        version: 5.15.2(@types/node@24.9.2)(db0@0.3.4)(ioredis@5.8.2)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.52.5)(terser@5.44.0)(typescript@5.9.3)(yaml@2.8.1)
+        version: 5.15.3(@types/node@24.9.2)(db0@0.3.4)(ioredis@5.8.2)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.52.5)(terser@5.44.0)(typescript@5.9.3)(yaml@2.8.1)
       tailwindcss:
         specifier: ^4.1.14
         version: 4.1.16
@@ -2588,8 +2588,8 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro@5.15.2:
-    resolution: {integrity: sha512-xQQ+PiYJ7WpUJrHJpAb52TQAUCFmSR8lAtQr3tFfSIZoTQiEMFx3HITJ01t3eDUpHjja8J6JcYqgAhr9xygKQg==}
+  astro@5.15.3:
+    resolution: {integrity: sha512-wUO/isJrcUoduRoKacKB9jpO6TxTlPV1zw8UqQx39jSNY7z9IxusJAiib3AiNvqK+dCWhqXx+OnExCCwELmcUw==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -8652,7 +8652,7 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro@5.15.2(@types/node@24.9.2)(db0@0.3.4)(ioredis@5.8.2)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.52.5)(terser@5.44.0)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.15.3(@types/node@24.9.2)(db0@0.3.4)(ioredis@5.8.2)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.52.5)(terser@5.44.0)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
