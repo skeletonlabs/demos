@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@skeletonlabs/skeleton": "4.2.3",
-    "@skeletonlabs/skeleton-react": "4.2.3",
+    "@skeletonlabs/skeleton-react": "4.2.4",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.0.0",
     "@types/react": "^19",
