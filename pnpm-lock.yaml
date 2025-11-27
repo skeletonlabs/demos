@@ -52,8 +52,8 @@ importers:
         specifier: 4.5.3
         version: 4.5.3(tailwindcss@4.1.17)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.5.3
-        version: 4.5.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.6.0
+        version: 4.6.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.17
@@ -171,8 +171,8 @@ importers:
         specifier: 4.5.3
         version: 4.5.3(tailwindcss@4.1.17)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.5.3
-        version: 4.5.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.6.0
+        version: 4.6.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.17(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))
@@ -1925,8 +1925,11 @@ packages:
   '@skeletonlabs/skeleton-common@4.5.3':
     resolution: {integrity: sha512-HfVNpqfNk+jFHlQATheNFoUmGEuupBoDszFWsCpS/rDc0j8VFBMxB8wu4J4LsXQ4DkbrWCKLnWxLPzp981o9mA==}
 
-  '@skeletonlabs/skeleton-react@4.5.3':
-    resolution: {integrity: sha512-WIYRxwpTJdTnAveVW0xbG6DXNmF03vM+iMKmy0HJ437ySa4jWCTYoH3brTL3HWc05x0DYBkOwD9SV4A9ZDtLiQ==}
+  '@skeletonlabs/skeleton-common@4.6.0':
+    resolution: {integrity: sha512-pI/IiC4ZAwB/iHtHjBTsXe7SoWPKkCUeFxwoyrSboSwu638poKwpe283fLxvQTiJiiljhL226RdBXYB4y0PTPw==}
+
+  '@skeletonlabs/skeleton-react@4.6.0':
+    resolution: {integrity: sha512-bxw0+BM/FXjF2LyVmltXuPndWHXWGC8suE0z0qz7SAuPAC9yTeHY245HmtuxqY7WBvrbhZtx5tqMoP5Kwhaitg==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -2430,6 +2433,9 @@ packages:
 
   '@zag-js/file-utils@1.29.1':
     resolution: {integrity: sha512-nS6549/SkqFldlheXWSMiT+4NMVyB9PMg1DII36JANjgfoceVN/jBM21a6u7CssdpNnSYwqnD4Ozjeqkb3ZO5Q==}
+
+  '@zag-js/floating-panel@1.29.1':
+    resolution: {integrity: sha512-fcUKp0NfbTijU8FyA9BI3qNM/YlwFuuS8ixghiaweT/GlbJF9YUlyWzLXKE24I3rE+o0ykq53NEHdQGTco/2hg==}
 
   '@zag-js/focus-trap@1.29.1':
     resolution: {integrity: sha512-dDp/nuptTp1OJbEjSkLPNy6DxOSfYHKX292uvBV80xyLZUQ4s38wi8VCOuywpgF607WYIRozHI5PB8kaoz0sWA==}
@@ -7647,10 +7653,12 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@4.5.3': {}
 
-  '@skeletonlabs/skeleton-react@4.5.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@skeletonlabs/skeleton-common@4.6.0': {}
+
+  '@skeletonlabs/skeleton-react@4.6.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@internationalized/date': 3.10.0
-      '@skeletonlabs/skeleton-common': 4.5.3
+      '@skeletonlabs/skeleton-common': 4.6.0
       '@zag-js/accordion': 1.29.1
       '@zag-js/avatar': 1.29.1
       '@zag-js/collapsible': 1.29.1
@@ -7659,6 +7667,7 @@ snapshots:
       '@zag-js/date-picker': 1.29.1(@internationalized/date@3.10.0)
       '@zag-js/dialog': 1.29.1
       '@zag-js/file-upload': 1.29.1
+      '@zag-js/floating-panel': 1.29.1
       '@zag-js/listbox': 1.29.1
       '@zag-js/menu': 1.29.1
       '@zag-js/pagination': 1.29.1
@@ -8462,6 +8471,17 @@ snapshots:
   '@zag-js/file-utils@1.29.1':
     dependencies:
       '@zag-js/i18n-utils': 1.29.1
+
+  '@zag-js/floating-panel@1.29.1':
+    dependencies:
+      '@zag-js/anatomy': 1.29.1
+      '@zag-js/core': 1.29.1
+      '@zag-js/dom-query': 1.29.1
+      '@zag-js/popper': 1.29.1
+      '@zag-js/rect-utils': 1.29.1
+      '@zag-js/store': 1.29.1
+      '@zag-js/types': 1.29.1
+      '@zag-js/utils': 1.29.1
 
   '@zag-js/focus-trap@1.29.1':
     dependencies:
