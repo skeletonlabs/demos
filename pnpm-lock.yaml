@@ -52,8 +52,8 @@ importers:
         specifier: 4.6.1
         version: 4.6.1(tailwindcss@4.1.17)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.6.1
-        version: 4.6.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.7.0
+        version: 4.7.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.17
@@ -171,8 +171,8 @@ importers:
         specifier: 4.6.1
         version: 4.6.1(tailwindcss@4.1.17)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.6.1
-        version: 4.6.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 4.7.0
+        version: 4.7.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.17(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))
@@ -1925,8 +1925,11 @@ packages:
   '@skeletonlabs/skeleton-common@4.6.1':
     resolution: {integrity: sha512-k/0pkmcKkCqs9cvG3nlmNa68L7O+6+6j3Kgf70t4htF9EkEgNDUPCXiGoh3ztVzN+L0f4Xbc33TFl54Zl7i1rg==}
 
-  '@skeletonlabs/skeleton-react@4.6.1':
-    resolution: {integrity: sha512-L149kL1Dh9NgMK49U2jFJWPWEm//UN1vDiveD6fPMeckdEsYc2ciIZK090MvUlXzQJYGnJQGU5CNqI9EKoQj8w==}
+  '@skeletonlabs/skeleton-common@4.7.0':
+    resolution: {integrity: sha512-V4Um3TXvsssME+3pbWhlYyi4VdA4HOnzOyioCBWNOK7lSM8OizHqPNifVnsJ9jNIOcNZbAwqJfinn4UtX7uTDg==}
+
+  '@skeletonlabs/skeleton-react@4.7.0':
+    resolution: {integrity: sha512-aP0WHu/NLrjs3YWP2TfgJqS6FVfuH1XV7BwFKNvab8QSswZP5nDlZGH+BbjTwJKAlHsOHT31dX4KsmaGvwWRjg==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -2487,6 +2490,9 @@ packages:
 
   '@zag-js/slider@1.29.1':
     resolution: {integrity: sha512-BHT3GqM54TjnzuqJfVjcreDFfkXLQNKXBKdTRKQtOkSNsQ7M9Lci8UBHn4WcvQJN5RZ37zsc+Z7zHfHEe/1KSg==}
+
+  '@zag-js/steps@1.29.1':
+    resolution: {integrity: sha512-Bd6Fx1jii9SWjweKISjRh2Wi8OdZJgreH71gNOAjY7BlANhBD+V/euaGX2CwrQXNh1UnBYXYpy664p5aQbkbjg==}
 
   '@zag-js/store@1.29.1':
     resolution: {integrity: sha512-SDyYek8BRtsRPz/CbxmwlXt6B0j6rCezeZN6uAswE4kkmO4bfAjIErrgnImx3TqfjMXlTm4oFUFqeqRJpdnJRg==}
@@ -7650,10 +7656,12 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@4.6.1': {}
 
-  '@skeletonlabs/skeleton-react@4.6.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@skeletonlabs/skeleton-common@4.7.0': {}
+
+  '@skeletonlabs/skeleton-react@4.7.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@internationalized/date': 3.10.0
-      '@skeletonlabs/skeleton-common': 4.6.1
+      '@skeletonlabs/skeleton-common': 4.7.0
       '@zag-js/accordion': 1.29.1
       '@zag-js/avatar': 1.29.1
       '@zag-js/collapsible': 1.29.1
@@ -7672,6 +7680,7 @@ snapshots:
       '@zag-js/rating-group': 1.29.1
       '@zag-js/react': 1.29.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@zag-js/slider': 1.29.1
+      '@zag-js/steps': 1.29.1
       '@zag-js/switch': 1.29.1
       '@zag-js/tabs': 1.29.1
       '@zag-js/tags-input': 1.29.1
@@ -8587,6 +8596,14 @@ snapshots:
       '@zag-js/dom-query': 1.29.1
 
   '@zag-js/slider@1.29.1':
+    dependencies:
+      '@zag-js/anatomy': 1.29.1
+      '@zag-js/core': 1.29.1
+      '@zag-js/dom-query': 1.29.1
+      '@zag-js/types': 1.29.1
+      '@zag-js/utils': 1.29.1
+
+  '@zag-js/steps@1.29.1':
     dependencies:
       '@zag-js/anatomy': 1.29.1
       '@zag-js/core': 1.29.1
