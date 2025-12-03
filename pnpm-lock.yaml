@@ -52,8 +52,8 @@ importers:
         specifier: 4.7.1
         version: 4.7.1(tailwindcss@4.1.17)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.7.1
-        version: 4.7.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: 4.7.2
+        version: 4.7.2(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.17
@@ -171,8 +171,8 @@ importers:
         specifier: 4.7.1
         version: 4.7.1(tailwindcss@4.1.17)
       '@skeletonlabs/skeleton-react':
-        specifier: 4.7.1
-        version: 4.7.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: 4.7.2
+        version: 4.7.2(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.17(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))
@@ -1925,8 +1925,11 @@ packages:
   '@skeletonlabs/skeleton-common@4.7.1':
     resolution: {integrity: sha512-DLisevO52q4GnnHnx/9hYLEM1cKmLeO5nxFs/SP2Iu27fMx64YOplUSXuZsO2+yfg/QukvA5VKkJjKa+vnQqoA==}
 
-  '@skeletonlabs/skeleton-react@4.7.1':
-    resolution: {integrity: sha512-T5M8JdGo8nDDX26UnGk7slCp6Z8B6w92TMP7HTBmvstcSn0ZUHzp9rYXcluYghQ5o2xNaABI+sk6BdYluz4KaA==}
+  '@skeletonlabs/skeleton-common@4.7.2':
+    resolution: {integrity: sha512-U/57ko7eIUuiumYbXHa/sFFjhtXAI+cm/Cwfw0C9dz+jXfAUeOEjIgY3sziFu4k55DfF9fIvlTQ+UafTb4NXGg==}
+
+  '@skeletonlabs/skeleton-react@4.7.2':
+    resolution: {integrity: sha512-o4kpqvCA0MYN2VmWvogy9Ap8EFagf+29cdlgRd0kaJZuxQhdVy5JT0oAsO6OgMabRgRQrjHusRPu9DT2CoxK7Q==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -7653,10 +7656,12 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@4.7.1': {}
 
-  '@skeletonlabs/skeleton-react@4.7.1(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
+  '@skeletonlabs/skeleton-common@4.7.2': {}
+
+  '@skeletonlabs/skeleton-react@4.7.2(react-dom@19.2.1(react@19.2.1))(react@19.2.1)':
     dependencies:
       '@internationalized/date': 3.10.0
-      '@skeletonlabs/skeleton-common': 4.7.1
+      '@skeletonlabs/skeleton-common': 4.7.2
       '@zag-js/accordion': 1.30.0
       '@zag-js/avatar': 1.30.0
       '@zag-js/collapsible': 1.30.0
