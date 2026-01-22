@@ -125,8 +125,8 @@ importers:
         specifier: 4.10.0
         version: 4.10.0(tailwindcss@4.1.18)
       '@skeletonlabs/skeleton-svelte':
-        specifier: 4.10.0
-        version: 4.10.0(svelte@5.48.0)
+        specifier: 4.11.0
+        version: 4.11.0(svelte@5.48.0)
       '@sveltejs/adapter-auto':
         specifier: ^7.0.0
         version: 7.0.0(@sveltejs/kit@2.50.0(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.48.0)(vite@7.3.1(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.46.0)(yaml@2.8.2)))(svelte@5.48.0)(typescript@5.9.3)(vite@7.3.1(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.46.0)(yaml@2.8.2)))
@@ -219,8 +219,8 @@ importers:
         specifier: 4.10.0
         version: 4.10.0(tailwindcss@4.1.18)
       '@skeletonlabs/skeleton-svelte':
-        specifier: 4.10.0
-        version: 4.10.0(svelte@5.48.0)
+        specifier: 4.11.0
+        version: 4.11.0(svelte@5.48.0)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
         version: 6.2.4(svelte@5.48.0)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.46.0)(yaml@2.8.2))
@@ -2131,9 +2131,6 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@skeletonlabs/skeleton-common@4.10.0':
-    resolution: {integrity: sha512-I3CCVAzTsPAxbf+l7VSebCILH0vlW937/WVle47gJJMrVfSj2gttUjEjpMcpydjUGwI4GbMp2Y2mwPju51V0pQ==}
-
   '@skeletonlabs/skeleton-common@4.11.0':
     resolution: {integrity: sha512-HR355IZif96V1fgM0xhpWkiauXSZgEPUD5tn606C06lNeEudqzkwHoBHaCPWommbGnWFESb42xNlWi+LErLTMg==}
 
@@ -2143,8 +2140,8 @@ packages:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  '@skeletonlabs/skeleton-svelte@4.10.0':
-    resolution: {integrity: sha512-W7wBIeAW7yWnA1Xv3Yd0TKDHZXFzsos2VVjT9u0+UUasQNgZ4fnQG1/uH3HIoG94cRRofdX67J6lP3XiwA7eBw==}
+  '@skeletonlabs/skeleton-svelte@4.11.0':
+    resolution: {integrity: sha512-1tk6wqhO9bXlNjMFfSjaBCvOCPLasSJ3lF/sFsK1zLv2piWpQX0ZbxCkTCJqAaootRPe1KZU/uDdYmdtZEbzfA==}
     peerDependencies:
       svelte: ^5.29.0
 
@@ -7906,8 +7903,6 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@skeletonlabs/skeleton-common@4.10.0': {}
-
   '@skeletonlabs/skeleton-common@4.11.0': {}
 
   '@skeletonlabs/skeleton-react@4.11.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
@@ -7944,10 +7939,10 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  '@skeletonlabs/skeleton-svelte@4.10.0(svelte@5.48.0)':
+  '@skeletonlabs/skeleton-svelte@4.11.0(svelte@5.48.0)':
     dependencies:
       '@internationalized/date': 3.10.1
-      '@skeletonlabs/skeleton-common': 4.10.0
+      '@skeletonlabs/skeleton-common': 4.11.0
       '@zag-js/accordion': 1.32.0
       '@zag-js/avatar': 1.32.0
       '@zag-js/carousel': 1.32.0
