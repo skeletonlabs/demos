@@ -24,8 +24,8 @@ importers:
   demos/astro:
     dependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.2.1(vite@7.3.1(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))
@@ -49,8 +49,8 @@ importers:
         version: 19.2.4(react@19.2.4)
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@skeletonlabs/skeleton-react':
         specifier: 4.12.1
         version: 4.12.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -76,8 +76,8 @@ importers:
   demos/nuxt:
     dependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.2.1(vite@7.3.1(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))
@@ -110,8 +110,8 @@ importers:
         version: 0.5.11(@types/node@25.0.2)(db0@0.3.4)(ioredis@5.9.2)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2)
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@tailwindcss/vite':
         specifier: ^4.0.7
         version: 4.2.1(vite@7.3.1(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))
@@ -122,8 +122,8 @@ importers:
   demos/sveltekit:
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@skeletonlabs/skeleton-svelte':
         specifier: 4.12.1
         version: 4.12.1(svelte@5.53.5)
@@ -168,8 +168,8 @@ importers:
         specifier: ^10.0.0
         version: 10.0.1(eslint@10.0.2(jiti@2.6.1))
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@skeletonlabs/skeleton-react':
         specifier: 4.12.1
         version: 4.12.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -216,8 +216,8 @@ importers:
   demos/vite-svelte:
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 4.12.0
-        version: 4.12.0(tailwindcss@4.2.1)
+        specifier: 4.12.1
+        version: 4.12.1(tailwindcss@4.2.1)
       '@skeletonlabs/skeleton-svelte':
         specifier: 4.12.1
         version: 4.12.1(svelte@5.53.5)
@@ -2537,8 +2537,8 @@ packages:
     peerDependencies:
       svelte: ^5.29.0
 
-  '@skeletonlabs/skeleton@4.12.0':
-    resolution: {integrity: sha512-5Zch+aAarrWQaWEtjdb/jlaT5Q2H4Lt6pCl8utvrkKGGlXfAWd2yjzho75E1nxdbsS9F2q+5ipewlbrtmGYB8Q==}
+  '@skeletonlabs/skeleton@4.12.1':
+    resolution: {integrity: sha512-Zc2AVcQshkoJemL+B9WD7eporxkQSlQVahmnRFGHzhKdwF3b7h8YE+0Dvb3gmYK1FGbeAifoi2s9mBIi1YnPZw==}
     peerDependencies:
       tailwindcss: ^4.0.0
 
@@ -8426,7 +8426,7 @@ snapshots:
       '@zag-js/tree-view': 1.34.1
       svelte: 5.53.5
 
-  '@skeletonlabs/skeleton@4.12.0(tailwindcss@4.2.1)':
+  '@skeletonlabs/skeleton@4.12.1(tailwindcss@4.2.1)':
     dependencies:
       tailwindcss: 4.2.1
 
