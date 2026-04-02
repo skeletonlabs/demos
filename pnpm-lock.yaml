@@ -97,8 +97,8 @@ importers:
   demos/solidstart:
     dependencies:
       '@solidjs/router':
-        specifier: ^0.15.0
-        version: 0.15.4(solid-js@1.9.12)
+        specifier: ^0.16.0
+        version: 0.16.1(solid-js@1.9.12)
       '@solidjs/start':
         specifier: ^1.1.0
         version: 1.3.2(solid-js@1.9.12)(vinxi@0.5.11(@types/node@25.0.2)(db0@0.3.4)(ioredis@5.9.2)(jiti@2.6.1)(lightningcss@1.32.0)(rolldown@1.0.0-rc.12(@emnapi/core@1.9.0)(@emnapi/runtime@1.9.1))(terser@5.46.0)(yaml@2.8.3))(vite@8.0.3(@emnapi/core@1.9.0)(@emnapi/runtime@1.9.1)(@types/node@25.0.2)(esbuild@0.27.5)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.3))
@@ -2517,8 +2517,8 @@ packages:
     peerDependencies:
       tailwindcss: ^4.0.0
 
-  '@solidjs/router@0.15.4':
-    resolution: {integrity: sha512-WOpgg9a9T638cR+5FGbFi/IV4l2FpmBs1GpIMSPa0Ce9vyJN7Wts+X2PqMf9IYn0zUj2MlSJtm1gp7/HI/n5TQ==}
+  '@solidjs/router@0.16.1':
+    resolution: {integrity: sha512-IhyjedgC6LRpw/8CPGGI89FrV+r0xTHzOl2c4CRyzYQ1bLepJxbVI1LLKvsavMWY5TRBRacV7hAeOhuTXkjiqg==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -8462,7 +8462,7 @@ snapshots:
     dependencies:
       tailwindcss: 4.2.2
 
-  '@solidjs/router@0.15.4(solid-js@1.9.12)':
+  '@solidjs/router@0.16.1(solid-js@1.9.12)':
     dependencies:
       solid-js: 1.9.12
 
