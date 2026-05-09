@@ -10,5 +10,5 @@
     "prettier-plugin-tailwindcss": "^0.8.0"
   },
   "type": "module",
-  "packageManager": "pnpm@11.0.8"
+  "packageManager": "pnpm@11.0.9"
 }
