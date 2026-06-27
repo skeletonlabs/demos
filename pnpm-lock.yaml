@@ -10,16 +10,16 @@ importers:
     devDependencies:
       prettier:
         specifier: ^3.6.2
-        version: 3.8.4
+        version: 3.8.5
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-svelte:
         specifier: ^3.5.1
-        version: 3.5.1(prettier@3.8.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
+        version: 3.5.1(prettier@3.8.5)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
       prettier-plugin-tailwindcss:
         specifier: ^0.8.0
-        version: 0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.8.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.8.4)
+        version: 0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.8.5)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.8.5)
 
   demos/astro:
     dependencies:
@@ -5846,6 +5846,11 @@ packages:
 
   prettier@3.8.4:
     resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  prettier@3.8.5:
+    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -13412,19 +13417,21 @@ snapshots:
       prettier: 3.8.4
       sass-formatter: 0.7.9
 
-  prettier-plugin-svelte@3.5.1(prettier@3.8.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1)):
+  prettier-plugin-svelte@3.5.1(prettier@3.8.5)(svelte@5.56.4(@typescript-eslint/types@8.61.1)):
     dependencies:
-      prettier: 3.8.4
+      prettier: 3.8.5
       svelte: 5.56.4(@typescript-eslint/types@8.61.1)
 
-  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.8.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.8.4):
+  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.8.5)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.8.5):
     dependencies:
-      prettier: 3.8.4
+      prettier: 3.8.5
     optionalDependencies:
       prettier-plugin-astro: 0.14.1
-      prettier-plugin-svelte: 3.5.1(prettier@3.8.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
+      prettier-plugin-svelte: 3.5.1(prettier@3.8.5)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
 
   prettier@3.8.4: {}
+
+  prettier@3.8.5: {}
 
   pretty-bytes@7.1.0: {}
 
