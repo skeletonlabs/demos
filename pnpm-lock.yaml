@@ -10,16 +10,16 @@ importers:
     devDependencies:
       prettier:
         specifier: ^3.6.2
-        version: 3.9.1
+        version: 3.9.0
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-svelte:
         specifier: ^3.5.1
-        version: 3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
+        version: 3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
       prettier-plugin-tailwindcss:
         specifier: ^0.8.0
-        version: 0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.1)
+        version: 0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.0)
 
   demos/astro:
     dependencies:
@@ -144,7 +144,7 @@ importers:
         version: 5.56.4(@typescript-eslint/types@8.61.1)
       svelte-check:
         specifier: ^4.3.2
-        version: 4.6.0(picomatch@4.0.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))(typescript@6.0.3)
+        version: 4.7.1(picomatch@4.0.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))(typescript@6.0.3)
       tailwindcss:
         specifier: ^4.1.13
         version: 4.3.1
@@ -238,7 +238,7 @@ importers:
         version: 5.56.4(@typescript-eslint/types@8.61.1)
       svelte-check:
         specifier: ^4.3.2
-        version: 4.6.0(picomatch@4.0.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))(typescript@6.0.3)
+        version: 4.7.1(picomatch@4.0.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))(typescript@6.0.3)
       tailwindcss:
         specifier: ^4.1.14
         version: 4.3.1
@@ -3057,8 +3057,8 @@ packages:
       typescript:
         optional: true
 
-  '@sveltejs/load-config@0.1.1':
-    resolution: {integrity: sha512-BXXm+VOH/9X4N7Dd1iZ2MqA1h7M+9i2noI8QYuLDY8QcN2WHYn7D/VK/+IJNfcAmRw7ACNJ538UT9GXIhnBTiA==}
+  '@sveltejs/load-config@0.2.0':
+    resolution: {integrity: sha512-1LgZ/qUqSoq+QorD83lk2hka79Px0wXNW2q5V1nZlxGhQgw1jrsIbVz5YiCeucVLo4XvFLjXukUaQjIiqowkcg==}
     engines: {node: '>= 18.0.0'}
 
   '@sveltejs/vite-plugin-svelte@7.1.1':
@@ -5853,11 +5853,6 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.9.1:
-    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
-    engines: {node: '>=14'}
-    hasBin: true
-
   pretty-bytes@7.1.0:
     resolution: {integrity: sha512-nODzvTiYVRGRqAOvE84Vk5JDPyyxsVk0/fbA/bq7RqlnhksGpset09XTxbpvLTIjoaF7K8Z8DG8yHtKGTPSYRw==}
     engines: {node: '>=20'}
@@ -6381,8 +6376,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  svelte-check@4.6.0:
-    resolution: {integrity: sha512-KhVnDFDSid57mmZtHz8gfW8AAGylOZ0vPnOIzVmAL+urzwK8sBYXRss953gD8T0OdgAQ11mdWhE6uadmtOz8TQ==}
+  svelte-check@4.7.1:
+    resolution: {integrity: sha512-FGUOmAqxXdN/H9Zm8slrqO7SLtFisXRB7rfOsHNJ3MLTD2po/+Stg8XyErkpumPHbuUiYTcqrEIzxpVWKTLqtg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -9666,7 +9661,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  '@sveltejs/load-config@0.1.1': {}
+  '@sveltejs/load-config@0.2.0': {}
 
   '@sveltejs/vite-plugin-svelte@7.1.1(svelte@5.56.4(@typescript-eslint/types@8.61.1))(vite@8.0.16(@types/node@24.13.2)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0))':
     dependencies:
@@ -13425,21 +13420,19 @@ snapshots:
       prettier: 3.9.0
       sass-formatter: 0.7.9
 
-  prettier-plugin-svelte@3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1)):
+  prettier-plugin-svelte@3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1)):
     dependencies:
-      prettier: 3.9.1
+      prettier: 3.9.0
       svelte: 5.56.4(@typescript-eslint/types@8.61.1)
 
-  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.1):
+  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.0):
     dependencies:
-      prettier: 3.9.1
+      prettier: 3.9.0
     optionalDependencies:
       prettier-plugin-astro: 0.14.1
-      prettier-plugin-svelte: 3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
+      prettier-plugin-svelte: 3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
 
   prettier@3.9.0: {}
-
-  prettier@3.9.1: {}
 
   pretty-bytes@7.1.0: {}
 
@@ -14192,10 +14185,10 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.6.0(picomatch@4.0.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))(typescript@6.0.3):
+  svelte-check@4.7.1(picomatch@4.0.4)(svelte@5.56.4(@typescript-eslint/types@8.61.1))(typescript@6.0.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      '@sveltejs/load-config': 0.1.1
+      '@sveltejs/load-config': 0.2.0
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.4)
       picocolors: 1.1.1
