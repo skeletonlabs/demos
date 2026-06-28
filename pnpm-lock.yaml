@@ -10,16 +10,16 @@ importers:
     devDependencies:
       prettier:
         specifier: ^3.6.2
-        version: 3.9.0
+        version: 3.9.1
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-svelte:
         specifier: ^3.5.1
-        version: 3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
+        version: 3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
       prettier-plugin-tailwindcss:
         specifier: ^0.8.0
-        version: 0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.0)
+        version: 0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.1)
 
   demos/astro:
     dependencies:
@@ -4245,8 +4245,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.379:
-    resolution: {integrity: sha512-v/qV5aV5EUA2pGilzUCq5/eyOloZAqDZBu9UMBIzgPpLlprjSR6zswsWBTv0KpqxLGUAZEwhO95ZCt7srymNVA==}
+  electron-to-chromium@1.5.380:
+    resolution: {integrity: sha512-W6d5AbuEoRayO447cqrg6lKJIlscgRnnxOZl/08kfV71BQDoEBC7Wwis68z87LjyK6f4kWyTaubuDbhHKrZkbA==}
 
   emoji-regex-xs@1.0.0:
     resolution: {integrity: sha512-LRlerrMYoIDrT6jgpeZ2YYl/L8EulRTt5hQcYjy5AInh7HWXKimpqx68aknBFpGL2+/IcogTcaydJEgaTmOpDg==}
@@ -4374,8 +4374,8 @@ packages:
     resolution: {integrity: sha512-Ap6G0WQwcU/LHsvLwON1fAQX9Zp0A2Y6Y/cJBl9r/JbW90Zyg4/zbG6zzKa2OTALELarYHmKu0GhpM5EO+7T0g==}
     engines: {node: '>=0.10'}
 
-  esrap@2.2.12:
-    resolution: {integrity: sha512-On0QbLyaiAkVC4eXtgnXK9Kh2opit+3rcUSOc45DqJ2s/X2eXAHsGOKRSJ6IDagQEW5vPyivANfXUiqgXC67Rw==}
+  esrap@2.2.13:
+    resolution: {integrity: sha512-m8jH5hZgJE2RRUK/jjkGPcJEDAV+dYnZYFkosQaPTcE+Yw4xynXHOo6FUdwaWBtdR3b1MMa7wEDTSHeR2VWsGA==}
     peerDependencies:
       '@typescript-eslint/types': ^8.2.0
     peerDependenciesMeta:
@@ -4882,6 +4882,10 @@ packages:
 
   js-yaml@4.2.0:
     resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
+    hasBin: true
+
+  js-yaml@4.3.0:
+    resolution: {integrity: sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==}
     hasBin: true
 
   jsesc@3.1.0:
@@ -5844,13 +5848,13 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.8.5:
-    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
+  prettier@3.9.0:
+    resolution: {integrity: sha512-LjIqSIC5VYLzs9WedVmJ2ljNAGnU+DteIClbahu4L/DBeWjZ6iT/k1lAYyu9JUh+1xINxWadaPw/Pl63y/agAw==}
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.9.0:
-    resolution: {integrity: sha512-LjIqSIC5VYLzs9WedVmJ2ljNAGnU+DteIClbahu4L/DBeWjZ6iT/k1lAYyu9JUh+1xINxWadaPw/Pl63y/agAw==}
+  prettier@3.9.1:
+    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -7277,7 +7281,7 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      js-yaml: 4.2.0
+      js-yaml: 4.3.0
       picomatch: 4.0.4
       retext-smartypants: 6.2.0
       shiki: 4.3.0
@@ -10858,7 +10862,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.40
       caniuse-lite: 1.0.30001799
-      electron-to-chromium: 1.5.379
+      electron-to-chromium: 1.5.380
       node-releases: 2.0.50
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
@@ -11216,7 +11220,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.379: {}
+  electron-to-chromium@1.5.380: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -11423,7 +11427,7 @@ snapshots:
     dependencies:
       estraverse: 5.3.0
 
-  esrap@2.2.12(@typescript-eslint/types@8.61.1):
+  esrap@2.2.13(@typescript-eslint/types@8.61.1):
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
     optionalDependencies:
@@ -11981,6 +11985,10 @@ snapshots:
   js-tokens@9.0.1: {}
 
   js-yaml@4.2.0:
+    dependencies:
+      argparse: 2.0.1
+
+  js-yaml@4.3.0:
     dependencies:
       argparse: 2.0.1
 
@@ -13414,24 +13422,24 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.13.0
-      prettier: 3.8.5
+      prettier: 3.9.0
       sass-formatter: 0.7.9
 
-  prettier-plugin-svelte@3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1)):
+  prettier-plugin-svelte@3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1)):
     dependencies:
-      prettier: 3.9.0
+      prettier: 3.9.1
       svelte: 5.56.4(@typescript-eslint/types@8.61.1)
 
-  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.0):
+  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-astro@0.14.1)(prettier-plugin-svelte@3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1)))(prettier@3.9.1):
     dependencies:
-      prettier: 3.9.0
+      prettier: 3.9.1
     optionalDependencies:
       prettier-plugin-astro: 0.14.1
-      prettier-plugin-svelte: 3.5.1(prettier@3.9.0)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
-
-  prettier@3.8.5: {}
+      prettier-plugin-svelte: 3.5.1(prettier@3.9.1)(svelte@5.56.4(@typescript-eslint/types@8.61.1))
 
   prettier@3.9.0: {}
+
+  prettier@3.9.1: {}
 
   pretty-bytes@7.1.0: {}
 
@@ -14210,7 +14218,7 @@ snapshots:
       clsx: 2.1.1
       devalue: 5.8.1
       esm-env: 1.2.2
-      esrap: 2.2.12(@typescript-eslint/types@8.61.1)
+      esrap: 2.2.13(@typescript-eslint/types@8.61.1)
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.21
