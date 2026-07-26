@@ -40,20 +40,20 @@ importers:
     dependencies:
       next:
         specifier: 16.2.12
-        version: 16.2.12(@babel/core@7.29.7(supports-color@10.2.2))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: 16.2.12(@babel/core@7.29.7(supports-color@10.2.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
-        specifier: 19.2.7
-        version: 19.2.7
+        specifier: 19.2.8
+        version: 19.2.8
       react-dom:
-        specifier: 19.2.7
-        version: 19.2.7(react@19.2.7)
+        specifier: 19.2.8
+        version: 19.2.8(react@19.2.8)
     devDependencies:
       '@skeletonlabs/skeleton':
         specifier: 5.0.0
         version: 5.0.0(tailwindcss@4.3.3)
       '@skeletonlabs/skeleton-react':
         specifier: 5.0.0
-        version: 5.0.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: 5.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.3.3
@@ -159,10 +159,10 @@ importers:
     dependencies:
       react:
         specifier: ^19.1.1
-        version: 19.2.7
+        version: 19.2.8
       react-dom:
         specifier: ^19.1.1
-        version: 19.2.7(react@19.2.7)
+        version: 19.2.8(react@19.2.8)
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.0
@@ -172,7 +172,7 @@ importers:
         version: 5.0.0(tailwindcss@4.3.3)
       '@skeletonlabs/skeleton-react':
         specifier: 5.0.0
-        version: 5.0.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: 5.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.3.3(vite@8.1.5(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(terser@5.49.0)(yaml@2.9.0))
@@ -5835,13 +5835,13 @@ packages:
   rc9@3.0.1:
     resolution: {integrity: sha512-gMDyleLWVE+i6Sgtc0QbbY6pEKqYs97NGi6isHQPqYlLemPoO8dxQ3uGi0f4NiP98c+jMW6cG1Kx9dDwfvqARQ==}
 
-  react-dom@19.2.7:
-    resolution: {integrity: sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==}
+  react-dom@19.2.8:
+    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
     peerDependencies:
-      react: ^19.2.7
+      react: ^19.2.8
 
-  react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
 
   readable-stream@2.3.8:
@@ -9372,7 +9372,7 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@5.0.0': {}
 
-  '@skeletonlabs/skeleton-react@5.0.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@skeletonlabs/skeleton-react@5.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@internationalized/date': 3.12.2
       '@skeletonlabs/skeleton-common': 5.0.0
@@ -9396,7 +9396,7 @@ snapshots:
       '@zag-js/qr-code': 1.42.0
       '@zag-js/radio-group': 1.42.0
       '@zag-js/rating-group': 1.42.0
-      '@zag-js/react': 1.42.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      '@zag-js/react': 1.42.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@zag-js/slider': 1.42.0
       '@zag-js/steps': 1.42.0
       '@zag-js/switch': 1.42.0
@@ -9406,8 +9406,8 @@ snapshots:
       '@zag-js/toggle-group': 1.42.0
       '@zag-js/tooltip': 1.42.0
       '@zag-js/tree-view': 1.42.0
-      react: 19.2.7
-      react-dom: 19.2.7(react@19.2.7)
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
 
   '@skeletonlabs/skeleton-svelte@5.0.0(svelte@5.56.8(@typescript-eslint/types@8.64.0))':
     dependencies:
@@ -10431,14 +10431,14 @@ snapshots:
       '@zag-js/types': 1.42.0
       '@zag-js/utils': 1.42.0
 
-  '@zag-js/react@1.42.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@zag-js/react@1.42.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@zag-js/core': 1.42.0
       '@zag-js/store': 1.42.0
       '@zag-js/types': 1.42.0
       '@zag-js/utils': 1.42.0
-      react: 19.2.7
-      react-dom: 19.2.7(react@19.2.7)
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
 
   '@zag-js/rect-utils@1.42.0': {}
 
@@ -12288,16 +12288,16 @@ snapshots:
 
   neotraverse@0.6.18: {}
 
-  next@16.2.12(@babel/core@7.29.7(supports-color@10.2.2))(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  next@16.2.12(@babel/core@7.29.7(supports-color@10.2.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
     dependencies:
       '@next/env': 16.2.12
       '@swc/helpers': 0.5.15
       baseline-browser-mapping: 2.10.43
       caniuse-lite: 1.0.30001806
       postcss: 8.4.31
-      react: 19.2.7
-      react-dom: 19.2.7(react@19.2.7)
-      styled-jsx: 5.1.6(@babel/core@7.29.7(supports-color@10.2.2))(react@19.2.7)
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
+      styled-jsx: 5.1.6(@babel/core@7.29.7(supports-color@10.2.2))(react@19.2.8)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.12
       '@next/swc-darwin-x64': 16.2.12
@@ -13189,12 +13189,12 @@ snapshots:
       defu: 6.1.7
       destr: 2.0.5
 
-  react-dom@19.2.7(react@19.2.7):
+  react-dom@19.2.8(react@19.2.8):
     dependencies:
-      react: 19.2.7
+      react: 19.2.8
       scheduler: 0.27.0
 
-  react@19.2.7: {}
+  react@19.2.8: {}
 
   readable-stream@2.3.8:
     dependencies:
@@ -13772,10 +13772,10 @@ snapshots:
 
   structured-clone-es@2.0.0: {}
 
-  styled-jsx@5.1.6(@babel/core@7.29.7(supports-color@10.2.2))(react@19.2.7):
+  styled-jsx@5.1.6(@babel/core@7.29.7(supports-color@10.2.2))(react@19.2.8):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.7
+      react: 19.2.8
     optionalDependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
 
