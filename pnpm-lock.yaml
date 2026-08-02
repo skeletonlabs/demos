@@ -199,7 +199,7 @@ importers:
         version: 0.5.2(eslint@10.8.0(jiti@2.7.0)(supports-color@10.2.2))
       globals:
         specifier: ^17.0.0
-        version: 17.8.0
+        version: 17.9.0
       tailwindcss:
         specifier: ^4.1.14
         version: 4.3.3
@@ -4450,8 +4450,8 @@ packages:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
     engines: {node: '>=18'}
 
-  globals@17.8.0:
-    resolution: {integrity: sha512-Zz/LMDZScFmkakeL2cTHzf+PbWKdpU3uclqkZT7TjDG58j5WPt0PpA+n9uPI24fZtlw07q0OtEi84K+umsRzqQ==}
+  globals@17.9.0:
+    resolution: {integrity: sha512-m/MvAW61QVU5VDNF1Vj8axt016h8w7L5TU1e9zlab7XIttAT2YAlCwl75K1fOqvMM9apmD7lbCIRhpfkhmxhCg==}
     engines: {node: '>=18'}
 
   globby@16.1.0:
@@ -11474,7 +11474,7 @@ snapshots:
     dependencies:
       ini: 4.1.1
 
-  globals@17.8.0: {}
+  globals@17.9.0: {}
 
   globby@16.1.0:
     dependencies:
