@@ -210,8 +210,8 @@ importers:
         specifier: 5.0.1
         version: 5.0.1(tailwindcss@4.3.5)
       '@skeletonlabs/skeleton-react':
-        specifier: 5.0.3
-        version: 5.0.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: 5.0.4
+        version: 5.0.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.3.5
@@ -283,8 +283,8 @@ importers:
         specifier: 5.0.1
         version: 5.0.1(tailwindcss@4.3.5)
       '@skeletonlabs/skeleton-svelte':
-        specifier: 5.0.3
-        version: 5.0.3(svelte@5.57.3(@typescript-eslint/types@8.72.1))
+        specifier: 5.0.4
+        version: 5.0.4(svelte@5.57.3(@typescript-eslint/types@8.72.1))
       '@sveltejs/adapter-auto':
         specifier: ^8.0.0
         version: 8.0.0(@sveltejs/kit@3.1.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.72.1))(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)))(svelte@5.57.3(@typescript-eslint/types@8.72.1))(typescript@7.0.2)(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)))
@@ -329,8 +329,8 @@ importers:
         specifier: 5.0.1
         version: 5.0.1(tailwindcss@4.3.5)
       '@skeletonlabs/skeleton-react':
-        specifier: 5.0.3
-        version: 5.0.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: 5.0.4
+        version: 5.0.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.3.5(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -377,8 +377,8 @@ importers:
         specifier: 5.0.1
         version: 5.0.1(tailwindcss@4.3.5)
       '@skeletonlabs/skeleton-svelte':
-        specifier: 5.0.3
-        version: 5.0.3(svelte@5.57.3(@typescript-eslint/types@8.72.1))
+        specifier: 5.0.4
+        version: 5.0.4(svelte@5.57.3(@typescript-eslint/types@8.72.1))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.0.0
         version: 7.3.1(svelte@5.57.3(@typescript-eslint/types@8.72.1))(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -2941,17 +2941,17 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@skeletonlabs/skeleton-common@5.0.3':
-    resolution: {integrity: sha512-vH+0lw8BUIvaV4fFqB6p6vqppRFKu/F+57ISpn55Vx6NXM+RRpfUdMLIlvvkpvh4k2ylUaF8x/ryClhnrJT4NQ==}
+  '@skeletonlabs/skeleton-common@5.0.4':
+    resolution: {integrity: sha512-xvLbMNeW86pyWXAOalgRUfhTjRG0W7Wf8xXS4v6+UkyqD74eEK4+hxoUfpT5iQNGe8cuJ1TPFJLG4HoYI7O5zg==}
 
-  '@skeletonlabs/skeleton-react@5.0.3':
-    resolution: {integrity: sha512-hIbVXHusFMZj0H+Yjn9PbWeHR7hZPz+mIu2lNor/GQchcEidW76XoB5kH+TZ8fP3riT3oG4Yl75SBwOwkwY44w==}
+  '@skeletonlabs/skeleton-react@5.0.4':
+    resolution: {integrity: sha512-NiEsJ4XlIQxYXpqsyiu/zOMuTHn/XKSiqAjOZh2epsiIONjkldSrsqgB9N/gikZTklm8UqAk9Z74QyjvE2ACMA==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  '@skeletonlabs/skeleton-svelte@5.0.3':
-    resolution: {integrity: sha512-heyXNXkH0ksT80zMhGiGjxCfbEbn976MmSkEqd/UY5FtHBd0h08y0duHmMnTIqXgftgtQ2rjSeiOhPHA1mdiJA==}
+  '@skeletonlabs/skeleton-svelte@5.0.4':
+    resolution: {integrity: sha512-C00lUmAZB3fJ05p/O7V75I6Ed4nK7DYUMmGJbEdQkC7SY5A+l1ciusgvdnLifIc++mbhwBBDls6bp7WWHjLDsg==}
     peerDependencies:
       svelte: ^5.40.0
 
@@ -9387,12 +9387,12 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@skeletonlabs/skeleton-common@5.0.3': {}
+  '@skeletonlabs/skeleton-common@5.0.4': {}
 
-  '@skeletonlabs/skeleton-react@5.0.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@skeletonlabs/skeleton-react@5.0.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@internationalized/date': 3.12.4
-      '@skeletonlabs/skeleton-common': 5.0.3
+      '@skeletonlabs/skeleton-common': 5.0.4
       '@zag-js/accordion': 1.47.0
       '@zag-js/avatar': 1.47.0
       '@zag-js/carousel': 1.47.0
@@ -9426,10 +9426,10 @@ snapshots:
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
 
-  '@skeletonlabs/skeleton-svelte@5.0.3(svelte@5.57.3(@typescript-eslint/types@8.72.1))':
+  '@skeletonlabs/skeleton-svelte@5.0.4(svelte@5.57.3(@typescript-eslint/types@8.72.1))':
     dependencies:
       '@internationalized/date': 3.12.4
-      '@skeletonlabs/skeleton-common': 5.0.3
+      '@skeletonlabs/skeleton-common': 5.0.4
       '@zag-js/accordion': 1.47.0
       '@zag-js/avatar': 1.47.0
       '@zag-js/carousel': 1.47.0
