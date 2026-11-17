@@ -259,7 +259,7 @@ importers:
         version: 1.0.3(solid-js@1.9.19)
       '@solidjs/start':
         specifier: ^2.0.0
-        version: 2.2.2(@solidjs/router@1.0.3(solid-js@1.9.19))(solid-js@1.9.19)(supports-color@10.2.2)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
+        version: 2.2.3(@solidjs/router@1.0.3(solid-js@1.9.19))(solid-js@1.9.19)(supports-color@10.2.2)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
       solid-js:
         specifier: ^1.9.5
         version: 1.9.19
@@ -2975,8 +2975,8 @@ packages:
     peerDependencies:
       solid-js: ^1.8.6
 
-  '@solidjs/start@2.2.2':
-    resolution: {integrity: sha512-Mx6Nt9jfr03q8IYXSnpplgsVF7PFG+9A/k+OJqSnvjl6zpxCu0xjIqhClOq1FbgU8wEljBd49Dz60zPefsc8Cg==}
+  '@solidjs/start@2.2.3':
+    resolution: {integrity: sha512-tJvjep/21Zh8629kVPcRYql/pdhiFSFtxdoZr7Yic3SS2t5WosUqiooNj86/AlV3JMf1M3hIztHi+HZbykviEw==}
     engines: {node: '>=24'}
     peerDependencies:
       '@solidjs/router': '>=0.16.0 <2.0.0-0'
@@ -9503,7 +9503,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.19
 
-  '@solidjs/start@2.2.2(@solidjs/router@1.0.3(solid-js@1.9.19))(solid-js@1.9.19)(supports-color@10.2.2)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))':
+  '@solidjs/start@2.2.3(@solidjs/router@1.0.3(solid-js@1.9.19))(solid-js@1.9.19)(supports-color@10.2.2)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@babel/traverse': 7.29.8(supports-color@10.2.2)
