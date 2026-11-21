@@ -182,8 +182,8 @@ importers:
   demos/astro:
     dependencies:
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
+        specifier: 5.0.5
+        version: 5.0.5(tailwindcss@4.3.5)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.3.5(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -207,11 +207,11 @@ importers:
         version: 19.3.1(react@19.3.1)
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
-      '@skeletonlabs/skeleton-react':
         specifier: 5.0.5
-        version: 5.0.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        version: 5.0.5(tailwindcss@4.3.5)
+      '@skeletonlabs/skeleton-react':
+        specifier: 5.0.6
+        version: 5.0.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.3.5
@@ -234,8 +234,8 @@ importers:
   demos/nuxt:
     dependencies:
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
+        specifier: 5.0.5
+        version: 5.0.5(tailwindcss@4.3.5)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.3.5(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -268,8 +268,8 @@ importers:
         version: 0.5.11(@types/node@26.6.6)(db0@0.3.4)(debug@4.4.3(supports-color@10.2.2))(ioredis@5.9.2(supports-color@10.2.2))(jiti@2.7.0)(lightningcss@1.33.0)(rolldown@1.2.16)(supports-color@10.2.2)(terser@5.51.2)(yaml@2.9.1)
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
+        specifier: 5.0.5
+        version: 5.0.5(tailwindcss@4.3.5)
       '@tailwindcss/vite':
         specifier: ^4.0.7
         version: 4.3.5(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -280,8 +280,8 @@ importers:
   demos/sveltekit:
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
+        specifier: 5.0.5
+        version: 5.0.5(tailwindcss@4.3.5)
       '@skeletonlabs/skeleton-svelte':
         specifier: 5.0.5
         version: 5.0.5(svelte@5.57.3(@typescript-eslint/types@8.72.1))
@@ -326,11 +326,11 @@ importers:
         specifier: ^10.0.0
         version: 10.0.1(eslint@10.15.0(jiti@2.7.0)(supports-color@10.2.2))
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
-      '@skeletonlabs/skeleton-react':
         specifier: 5.0.5
-        version: 5.0.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        version: 5.0.5(tailwindcss@4.3.5)
+      '@skeletonlabs/skeleton-react':
+        specifier: 5.0.6
+        version: 5.0.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.3.5(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -374,8 +374,8 @@ importers:
   demos/vite-svelte:
     devDependencies:
       '@skeletonlabs/skeleton':
-        specifier: 5.0.4
-        version: 5.0.4(tailwindcss@4.3.5)
+        specifier: 5.0.5
+        version: 5.0.5(tailwindcss@4.3.5)
       '@skeletonlabs/skeleton-svelte':
         specifier: 5.0.5
         version: 5.0.5(svelte@5.57.3(@typescript-eslint/types@8.72.1))
@@ -2952,8 +2952,11 @@ packages:
   '@skeletonlabs/skeleton-common@5.0.5':
     resolution: {integrity: sha512-0TzksHdSteGxSkonOyA69EftMLamESs2QCGE1a9a/Ar+xKiDQIksinj1UMD6DhulTwAHe3jPxBHgALQR0Y3YSQ==}
 
-  '@skeletonlabs/skeleton-react@5.0.5':
-    resolution: {integrity: sha512-4zLlycegH30O3pG+TcGzgcBoUyllMNma3pmClL3t+hDvuZy1GLNKke28Zi01gCv+dOS1I5H74RYssGtp0vW+4g==}
+  '@skeletonlabs/skeleton-common@5.0.6':
+    resolution: {integrity: sha512-RJDEAdvf6CKw/XYGxzmL+LGQh9eec0DTQfwiXAY5HLqmlacHgOfw/ig2JPQuD3RZoWIHKDJ0R11RuLYazvO7Pw==}
+
+  '@skeletonlabs/skeleton-react@5.0.6':
+    resolution: {integrity: sha512-/kbvekybaRV/8v9qd6S6P9W7eyjjEjRJ5rjoK7icCSj/wpuiIPXDtwsDXPs4Vf87u4KWr5prsCLe9ZupmF3VLQ==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -2963,8 +2966,8 @@ packages:
     peerDependencies:
       svelte: ^5.40.0
 
-  '@skeletonlabs/skeleton@5.0.4':
-    resolution: {integrity: sha512-QjFzwU/ElVbn6/jSN2nmDpnH+bX+2GM1t9KM/h9Su17M7UMf0IQ6LBwlFysrpJjyuWOc9AUGgVjd4edNAEMxBw==}
+  '@skeletonlabs/skeleton@5.0.5':
+    resolution: {integrity: sha512-uKJhKn166VRWIeaGVDPbT6dRb/lhY+tk1+v59+aRAlA9ia72KPEdA3VYe0/Lxrj4ZM3D+LnDsh3aiycaaQ3EkQ==}
     peerDependencies:
       tailwindcss: ^4.0.0
 
@@ -9427,10 +9430,12 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@5.0.5': {}
 
-  '@skeletonlabs/skeleton-react@5.0.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@skeletonlabs/skeleton-common@5.0.6': {}
+
+  '@skeletonlabs/skeleton-react@5.0.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@internationalized/date': 3.12.4
-      '@skeletonlabs/skeleton-common': 5.0.5
+      '@skeletonlabs/skeleton-common': 5.0.6
       '@zag-js/accordion': 1.48.0
       '@zag-js/avatar': 1.48.0
       '@zag-js/carousel': 1.48.0
@@ -9500,7 +9505,7 @@ snapshots:
       '@zag-js/tree-view': 1.48.0
       svelte: 5.57.3(@typescript-eslint/types@8.72.1)
 
-  '@skeletonlabs/skeleton@5.0.4(tailwindcss@4.3.5)':
+  '@skeletonlabs/skeleton@5.0.5(tailwindcss@4.3.5)':
     dependencies:
       tailwindcss: 4.3.5
 
